@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Concrete
 {
-   public  class Repository<T> where T : BaseEntity
+   public  class Repository<T> where T : BaseEntity //where kısıtlama için kullandık. 
     {
         JetCaseContext db;
 
@@ -48,14 +48,8 @@ namespace DAL.Concrete
 
         public void UpdateDal(int id, T obje)
         {
-            //emlpoyee 
-        //public string UserName { get; set; }          Hasan
-        //public string Password { get; set; }   121
-        //public string FirstName { get; set; }   Hasan
-        //public string LastName { get; set; } yarak
-        //public string TC { get; set; } 1231
-        //public bool IsManager { get; set; }   hayır
-        var objeyibul = GetbyIdDal(id);
+         
+            var objeyibul = GetbyIdDal(id);
             objeyibul = obje;
             db.SaveChanges();
 

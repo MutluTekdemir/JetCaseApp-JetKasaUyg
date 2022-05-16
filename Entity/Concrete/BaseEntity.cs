@@ -9,6 +9,6 @@ namespace Entity.Concrete
 {
     public class BaseEntity
     {
-        public int Id { get; set; } //Base entitiy repositoyry yani genericlerin baseinde kullanmak için yaptım. 
+        public int Id { get; set; } //Base entitiy repository yani genericlerin baseinde kullanmak için yaptım. 
     }
 }
