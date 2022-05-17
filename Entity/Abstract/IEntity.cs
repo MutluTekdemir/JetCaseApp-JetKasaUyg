@@ -10,5 +10,6 @@ namespace Entity.Abstract
     {
         int Id { get; set; }  
 
+
     }
 }

@@ -10,5 +10,6 @@ namespace BLL.Concrete
 {
     public class SupplierManager : RepositoryBLL<Supplier>, ISupplierManager
     {
+
     }
 }

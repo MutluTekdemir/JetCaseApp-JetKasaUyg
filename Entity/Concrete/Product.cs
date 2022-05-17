@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entity.Concrete
 {
-    public class Product: BaseEntity //Birdaha Ientitye ortak bir prop eklediğimde tekrar tekrar uğraşmamak için İnterfacei kullanıyorum.
+    public class Product: BaseEntity 
     {
         public string ProductName { get; set; }
         public int UnitPrice { get; set; }

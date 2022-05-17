@@ -10,5 +10,6 @@ namespace DAL.Concrete
 {
     public class OrderDal : Repository<Order>, IOrderDal
     {
+
     }
 }

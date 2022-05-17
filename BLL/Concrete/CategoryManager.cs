@@ -10,7 +10,6 @@ namespace BLL.Concrete
 {
     public class CategoryManager : RepositoryBLL<Category>, ICategoryManager
     {
-
         
     }
 }

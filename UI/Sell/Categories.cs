@@ -55,6 +55,7 @@ namespace UI.Sell
             //    Btn.Click += Btn_Click;
             //    Flp.Controls.Add(Btn);
             //}
+
            
             for (int i = 0; i < categoryList.Count; i++)
             {

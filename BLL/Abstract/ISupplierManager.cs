@@ -9,5 +9,6 @@ namespace BLL.Abstract
 {
     public interface ISupplierManager : IRepository<Supplier>
     {
+
     }
 }

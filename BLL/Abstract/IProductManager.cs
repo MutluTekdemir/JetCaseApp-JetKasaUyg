@@ -9,5 +9,6 @@ namespace BLL.Abstract
 {
     public interface IProductManager :IRepository<Product>
     {
+
     }
 }

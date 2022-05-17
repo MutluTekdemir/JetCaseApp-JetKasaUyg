@@ -23,7 +23,7 @@ namespace UI
         private void LOGIN_Load(object sender, EventArgs e)
         {
             emp.ListBll();
-            //emp.AddBll(new Employee { Password = "1", UserName = "b", IsManager = true, TC = "asdasd", FirstName = "Yardım", LastName = "Et" });
+           
 
         }
 

@@ -56,6 +56,7 @@ namespace UI.Sell
             Flp.AutoScroll = false;
             this.Controls.Add(Flp);
             Buton_Ekle();
+
         }
         public void Buton_Ekle()
         {

@@ -14,5 +14,6 @@ namespace BLL.Abstract
         void DeleteBll(T obje);
         List<T> ListBll();
         T GetByIdBll(int id);
+
     }
 }

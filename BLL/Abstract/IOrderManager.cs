@@ -9,5 +9,6 @@ namespace BLL.Abstract
 {
     public interface IOrderManager : IRepository<Order>
     {
+
     }
 }

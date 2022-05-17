@@ -10,5 +10,6 @@ namespace DAL.Concrete
 {
     public class ProductDal : Repository<Product>, IProductDal
     {
+
     }
 }

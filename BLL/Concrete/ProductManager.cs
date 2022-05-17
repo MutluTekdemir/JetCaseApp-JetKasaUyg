@@ -10,5 +10,6 @@ namespace BLL.Concrete
 {
     public class ProductManager : RepositoryBLL<Product>, IProductManager
     {
+
     }
 }

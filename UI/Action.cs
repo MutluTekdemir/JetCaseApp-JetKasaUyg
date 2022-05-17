@@ -30,6 +30,7 @@ namespace UI
             else
             {
                 button2.Visible=false;
+
             }
         }
 

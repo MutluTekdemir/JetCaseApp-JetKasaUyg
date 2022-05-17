@@ -11,5 +11,6 @@ namespace DAL.Concrete
     public class CategoryDal : Repository<Category>, ICategoryDal
     {
        
+
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entity.Concrete
 {
-    public class Category : BaseEntity,IEntity  //Ientity kalıtım almadım sebebi ise implement etmek istemedim.Bunun için basentity adında bir clas oluşturup onun içerisine Ientity adında kalıtım aldım .Ientitiynin zorunlu kıldığı Propu tanıımlarayark BaseEntity clasından Tüm  Entity claslarıma kalıtım aldım.
+    public class Category : BaseEntity,IEntity  
     {
         public string CategoryName { get; set; }
 

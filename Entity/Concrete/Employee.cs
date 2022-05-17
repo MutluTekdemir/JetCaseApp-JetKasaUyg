@@ -15,5 +15,6 @@ namespace Entity.Concrete
         public string LastName { get; set; }
         public string TC { get; set; }
         public bool IsManager { get; set; }
+
     }
 }

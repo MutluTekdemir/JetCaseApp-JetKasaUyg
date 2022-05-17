@@ -11,9 +11,9 @@ namespace Entity.Concrete
     {
         public DateTime OrderDate { get; set; }
         public int Quantity { get; set; }
-        public int ProductId{ get; set; } //ekledik yeni 
+        public int ProductId{ get; set; } 
 
-        public int Unitprice { get; set; }// burdan devam et  (db güncelle ekle )
+        public int Unitprice { get; set; }
         
         public string ProductName { get; set; }
        

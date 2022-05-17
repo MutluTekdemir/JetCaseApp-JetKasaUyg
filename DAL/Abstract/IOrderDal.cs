@@ -10,5 +10,6 @@ namespace DAL.Abstract
     public interface IOrderDal:IRepository<Order>
     {
 
+
     }
 }

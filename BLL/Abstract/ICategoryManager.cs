@@ -10,5 +10,6 @@ namespace BLL.Abstract
     public interface ICategoryManager :IRepository<Category>
     {
        
+
     }
 }

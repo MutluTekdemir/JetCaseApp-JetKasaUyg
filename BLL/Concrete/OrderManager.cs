@@ -10,5 +10,6 @@ namespace BLL.Concrete
 {
     public class OrderManager : RepositoryBLL<Order>, IOrderManager
     {
+
     }
 }

@@ -118,7 +118,7 @@ namespace UI.Sell
             //    order.AddBll(or);
             //}
 
-            #region Rumyesanın cozumu
+            #region  cozum
             try
             {
                 foreach (Product item in _order)
