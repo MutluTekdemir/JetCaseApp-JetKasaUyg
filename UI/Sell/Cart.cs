@@ -88,36 +88,7 @@ namespace UI.Sell
             or = new Order();
             pm = new ProductManager();
 
-            //List<string> dizi = new List<string>(); //burda bir dizi tuttum.
-
-
-            //for (int h = 0; h < listBox1.Items.Count; h++) //for dögüsü açtım (listbocıx kopyasını almış oldum.)
-            //{
-            //    dizi.Add(listBox1.Items[h].ToString());
-            //}
-
-
-
-
-            //foreach (var item in dizi.Distinct()) //kopyalanan dizi içerisinde geziyorum
-            //{
-            //    int toplamsayi = 0;
-            //    string urunadi = item;
-            //    foreach (var urun in listBox1.Items)
-            //    {
-            //        if (urun == urunadi)
-            //        {
-            //            toplamsayi++;
-            //        }
-
-            //    }
-            //    or.Quantity = toplamsayi;
-            //    or.ProductId = pm.ListBll().FirstOrDefault(p => p.ProductName == urunadi).Id;
-            //    or.ProductName = pm.ListBll().FirstOrDefault(p => p.ProductName == urunadi).ProductName;
-            //    or.OrderDate = DateTime.Now;
-            //    order.AddBll(or);
-            //}
-
+           
             #region  cozum
             try
             {
@@ -125,7 +96,7 @@ namespace UI.Sell
                 {
                     if (ord.ContainsKey(item))
                     {
-                        ord[item] = ord[item] + 1;  //dictionarynin value sı
+                        ord[item] = ord[item] + 1;  
                     }
                     else
                     {
