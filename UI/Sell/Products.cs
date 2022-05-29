@@ -46,13 +46,12 @@ namespace UI.Sell
                 listBox1.Items.Add(pname + " : " + product.UnitPrice + "\n");
             }
             listem = pm.ListBll().Where(w => w.CategoryId == _catid).ToList();
-            // burada where kullanarak bütün listeyi filtreledim. Bir Önceki Formdan category id yi alıp burada kullandım
             Flp = new FlowLayoutPanel();
             Flp.Width = 800;
             Flp.Height = 800;
             //Flp.Dock = DockStyle.Top;
             Flp.Location = new Point(220, 100);
-            Flp.BorderStyle = BorderStyle.FixedSingle;//Çerçeve
+            Flp.BorderStyle = BorderStyle.FixedSingle;
             Flp.AutoScroll = false;
             this.Controls.Add(Flp);
             Buton_Ekle();
